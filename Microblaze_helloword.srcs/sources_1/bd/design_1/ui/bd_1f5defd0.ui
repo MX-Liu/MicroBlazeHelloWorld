@@ -1,0 +1,41 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.755131",
+   "Default View_TopLeft":"-111,-687",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port led_16bits -pg 1 -lvl 6 -x 1870 -y -430 -defaultsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x 0 -y -100 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x 0 -y -120 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 1 -x 270 -y -250 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 2 -x 680 -y -430 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 2 -x 680 -y -270 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 3 -x 960 -y -30 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 4 -x 1310 -y -10 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -x 270 -y -110 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 5 -x 1660 -y -50 -defaultsOSRD
+preplace netloc microblaze_0_Clk 1 0 5 20 -350 520 -100 800 120 1120 -110 1490J
+preplace netloc clk_wiz_1_locked 1 1 4 510J 110 NJ 110 1130J -100 1480
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 0 6 30 160 NJ 160 NJ 160 NJ 160 NJ 160 1850
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 1 5 570 150 NJ 150 NJ 150 NJ 150 1840
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 1 5 560 120 790 140 1160 70 NJ 70 1830
+preplace netloc mdm_1_debug_sys_rst 1 4 1 1490 -30n
+preplace netloc sys_clock_1 1 0 1 NJ -100
+preplace netloc reset_1 1 0 5 20 130 NJ 130 NJ 130 1150J -90 1470
+preplace netloc microblaze_0_dlmb_1 1 1 1 510 -300n
+preplace netloc microblaze_0_ilmb_1 1 1 1 530 -280n
+preplace netloc microblaze_0_axi_dp 1 1 2 510 -110 NJ
+preplace netloc microblaze_0_debug 1 0 5 30 -340 540J -180 NJ -180 NJ -180 1460
+preplace netloc microblaze_0_mdm_axi 1 3 1 1140 -40n
+preplace netloc axi_gpio_0_GPIO 1 2 4 NJ -430 NJ -430 NJ -430 NJ
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 1 3 550 -190 NJ -190 1110
+levelinfo -pg 1 0 270 680 960 1310 1660 1870
+pagesize -pg 1 -db -bbox -sgen -120 -510 1990 180
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_board_cnt":"4",
+   "da_mb_cnt":"1"
+}

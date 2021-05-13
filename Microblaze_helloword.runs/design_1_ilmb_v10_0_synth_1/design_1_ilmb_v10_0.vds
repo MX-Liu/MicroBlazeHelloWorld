@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May 13 12:58:12 2021
+# Process ID: 9000
+# Current directory: D:/Github/Microblaze/Microblaze_helloword/Microblaze_helloword.runs/design_1_ilmb_v10_0_synth_1
+# Command line: vivado.exe -log design_1_ilmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ilmb_v10_0.tcl
+# Log file: D:/Github/Microblaze/Microblaze_helloword/Microblaze_helloword.runs/design_1_ilmb_v10_0_synth_1/design_1_ilmb_v10_0.vds
+# Journal file: D:/Github/Microblaze/Microblaze_helloword/Microblaze_helloword.runs/design_1_ilmb_v10_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_ilmb_v10_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_ilmb_v10_0, cache-ID = d7a33dfe5ed5e650.
+INFO: [Common 17-206] Exiting Vivado at Thu May 13 12:58:28 2021...
